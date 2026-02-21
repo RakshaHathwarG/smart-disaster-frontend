@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #0d6efd;
+}
+
+table {
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-success {
+    background-color: #198754;
+    border: none;
+}
