@@ -1,28 +1,67 @@
-# Smart Disaster Response - Frontend
+🚨 Smart Disaster Response System
 
-This repository contains the frontend design of the Smart Disaster Response System.
+A full-stack web application built using Flask (Python) and Bootstrap 5 that allows users to report disaster incidents and enables administrators to view and manage submitted reports.
 
-## 📌 Project Description
-A web-based interface that allows users to report disasters and enables administrators to monitor severity levels.
+🌟 Features
+👤 User Side
 
-## ✨ Features
-- Disaster reporting form
-- Severity-based color indicators
-- Admin dashboard with status view
-- Professional and responsive UI
+Submit disaster reports
 
-## 🛠 Technologies Used
-- HTML5
-- CSS3
-- Bootstrap 5
-- Bootstrap Icons
+Select disaster type (Flood, Fire, Earthquake, Cyclone)
 
-## 📂 Project Structure
-/templates
-    - index.html
-    - admin.html
-/static
-    - style.css
+Enter location and reporter name
 
-## 🚀 Status
-Frontend completed. Backend integration pending.
+Choose severity level (Low / Medium / High)
+
+Add incident description
+
+Dynamic severity badge colors
+
+Flash message after successful submission
+
+🛠 Admin / Reports Dashboard
+
+View all submitted disaster reports
+
+Color-coded severity levels:
+
+🟢 Low – Green
+
+🟡 Medium – Yellow
+
+🔴 High – Red
+
+Displays:
+
+Disaster Type
+
+Location
+
+Reporter Name
+
+Severity
+
+Description
+
+Date & Time
+
+🏗 Tech Stack
+🔹 Backend
+
+Python 3
+
+Flask
+
+SQLite3
+
+Jinja2 Templates
+
+🔹 Frontend
+
+HTML5
+
+Bootstrap 5.3
+
+Bootstrap Icons
+
+JavaScript (for dynamic UI)
